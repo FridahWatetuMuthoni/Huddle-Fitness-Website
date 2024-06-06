@@ -200,6 +200,9 @@ img{
     align-items: center;
     justify-content: space-between;
     padding:15px 20px;
+    text-align: center;
+    gap:20px;
+
 }
 
 #footer p{
@@ -235,5 +238,16 @@ img{
 
     .testimonials{
         grid-template-columns: 1fr;
+    }
+
+    .form-info{
+        width:100%;
+    }
+    .feature figure{
+        height: auto;
+    }
+    
+    #footer{
+        flex-direction: column;
     }
 }
