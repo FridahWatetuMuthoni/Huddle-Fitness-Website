@@ -37,6 +37,7 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .nav ul li{
@@ -190,7 +191,7 @@ img{
 }
 
 #footer{
-    margin: 50px 0;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,7 +242,8 @@ img{
     }
 
     .form-info{
-        width:100%;
+        width:90%;
+        margin:0 auto;
     }
     .feature figure{
         height: auto;
